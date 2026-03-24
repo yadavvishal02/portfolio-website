@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords"
+        content="Vishal yadav, portfolio, vishal, full stack dev, personal portfolio lifecodes, portfolio design, portfolio website, personal portfolio" />
+    <meta name="description"
+        content="Welcome to Vishal's Portfolio. Full-Stack Web Developer and Android App Developer" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.svg">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Baloo+2:wght@400;500;600;700;800&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <title>Portfolio | Vishal Yadav</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="/" class="logo">vishal Ya<span>dav</span></a>
+        <div id="menu" class="fas fa-bars"></div>
+        <nav class="navbar">
+            <ul>
+                <li><a class="nav-link active" href="#home">Home</a></li>
+                <li><a class="nav-link" href="#about">About</a></li>
+                <li><a class="nav-link" href="#skills">Skills</a></li>
+                <li><a class="nav-link" href="#education">Education</a></li>
+                <li><a class="nav-link" href="#projects">Projects</a></li>
+                <li><a class="nav-link" href="#experience">Certification</a></li>
+                <li><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Theme Toggle Button -->
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme" title="Toggle dark/light mode">
+            <span class="theme-toggle__icon">
+                <i class="fas fa-moon" id="theme-icon"></i>
+            </span>
+        </button>
+    </header>
+
+    <!-- Hero section start -->
+    <section class="home hidden" id="home">
+        <div class="content">
+            <h2>- I Am VISHAL <span>Yadav</span></h2>
+            <p><span id="element"></span></p>
+            <div class="socials">
+                <ul class="social-icons">
+                    <li class="linkd"><a class="linkedin active" aria-label="linkedin"
+                            href="https://www.linkedin.com/in/vishal-yadav-934b66292/" target="_blank"><i
+                                class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li class="git"><a class="github" aria-label="github" href="https://github.com/yadavvishal02"
+                            target="_blank"><i class="fab fa-github"></i></a></li>
+                    <li class="twit"><a class="twitter" aria-label="twitter" href="https://x.com/VishalY85702954"
+                            target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    <li class="insta"><a class="instagram" aria-label="instagram"
+                            href="https://www.instagram.com/yadav_vishal_02/" target="_blank"><i
+                                class="fab fa-instagram"></i></a></li>
+                    <li class="mail"><a class="email" aria-label="email" href="mailto:yadavvishal32880@gmail.com"
+                            target="_blank"><i class="fas fa-envelope"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="image">
+            <img draggable="false" src="images/meeeee.png" alt="Vishal Yadav">
+        </div>
+    </section>
+    <!-- hero section ends -->
+
+    <!-- about section starts -->
+    <section class="about hidden" id="about">
+        <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+        <div class="row">
+            <div class="image animate">
+                <img draggable="false" src="images/meee2.png" width="200" alt="Vishal Yadav">
+            </div>
+            <div class="content">
+                <h3>I'm Vishal</h3>
+                <span class="tag">Full-Stack Developer & AI/ML Enthusiast</span>
+                <p>I'm a B.Tech CSE (AI & ML) student at LPU with a strong passion for crafting engaging and impactful
+                    web experiences. Leveraging my skills in HTML, CSS, JavaScript, ReactJS, and Python, I enjoy
+                    building modern websites and web applications with a user-centric focus. While actively honing my
+                    expertise through personal projects, I'm eager to contribute to impactful projects and collaborate
+                    with like-minded individuals.</p>
+                <div class="box-container">
+                    <div class="box">
+                        <p><span>Email: </span> yadavvishal32880@gmail.com</p>
+                        <p><span>Phone: </span> +91 935-075-0820</p>
+                        <p><span>Address: </span> Haryana, India - 123028</p>
+                    </div>
+                </div>
+                <div class="resume-btn">
+                    <a href="https://drive.google.com/file/d/15dU6om0hfFQPsCDwWaFMfdxf8NZk-3uX/view?usp=sharing"
+                        target="_blank" class="btn"><span>Download Resume</span><i class="fas fa-download"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About section ends -->
+
+    <!-- Skills section starts -->
+    <section id="skills" class="skills-section hidden">
+        <div class="container">
+            <div class="section-title text-center">
+                <h1>My <span>Skills</span></h1>
+                <p>Technologies I work with</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-html5" style="color:#e34f26;"></i></div>
+                    <h3>HTML5</h3>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="--fill:100%"></div>
+                    </div>
+                    <span class="skill-percent">100%</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-css3-alt" style="color:#1572b6;"></i></div>
+                    <h3>CSS3</h3>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="--fill:75%"></div>
+                    </div>
+                    <span class="skill-percent">75%</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-js-square" style="color:#f7df1e;"></i></div>
+                    <h3>JavaScript</h3>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="--fill:65%"></div>
+                    </div>
+                    <span class="skill-percent">65%</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-react" style="color:#61dafb;"></i></div>
+                    <h3>React JS</h3>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="--fill:60%"></div>
+                    </div>
+                    <span class="skill-percent">60%</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-python" style="color:#3776ab;"></i></div>
+                    <h3>Python</h3>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="--fill:55%"></div>
+                    </div>
+                    <span class="skill-percent">65%</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-java" style="color:#007396;"></i></div>
+                    <h3>Java</h3>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="--fill:70%"></div>
+                    </div>
+                    <span class="skill-percent">70%</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-node-js" style="color:#339933;"></i></div>
+                    <h3>Node.js</h3>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="--fill:45%"></div>
+                    </div>
+                    <span class="skill-percent">45%</span>
+                </div>
+                <!-- <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-android" style="color:#3ddc84;"></i></div>
+                    <h3>Android Dev</h3>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="--fill:50%"></div>
+                    </div>
+                    <span class="skill-percent">50%</span>
+                </div> -->
+                <!-- <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-figma" style="color:#f24e1e;"></i></div>
+                    <h3>Figma</h3>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="--fill:65%"></div>
+                    </div>
+                    <span class="skill-percent">65%</span>
+                </div> -->
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-leaf" style="color:#092E20;"></i>
+                    </div>
+                    <h3>Django</h3>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="--fill:60%"></div>
+                    </div>
+                    <span class="skill-percent">60%</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-git-alt" style="color:#f05032;"></i></div>
+                    <h3>Git & GitHub</h3>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="--fill:75%"></div>
+                    </div>
+                    <span class="skill-percent">75%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Skills section ends -->
+
+    <!-- education section starts -->
+    <section class="education hidden" id="education">
+        <h1 class="heading" id="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
+        <p class="qoute">"Education is not the learning of facts, but the training of the mind to think."</p>
+        <div class="box-container">
+            <div class="box">
+                <div class="image"><img src="images/college.jpg" alt="LPU"></div>
+                <div class="content">
+                    <h3>Bachelor of Technology — Computer Science & Engineering (AI & ML)</h3>
+                    <p><a href="https://www.lpu.in" target="_blank">School Of Computer Science & Engineering | Lovely
+                            Professional University (LPU)</a></p>
+                    <h4>2023 – 2027 | Pursuing | CGPA: 6.8</h4>
+                </div>
+            </div>
+        </div>
+        <div class="box-container">
+            <div class="box">
+                <div class="image"><img src="images/rpsMgarh.png" alt="RPS School"></div>
+                <div class="content">
+                    <h3>Matriculation & Senior Secondary (Science)</h3>
+                    <p><a href="https://www.rpsmgarh.edu.in/" target="_blank">RPS Sr. Sec. School | CBSE Board</a></p>
+                    <h4>2020 – 2023 | Completed</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Education section ends -->
+
+    <!-- projects section starts -->
+    <section class="projects hidden" id="projects">
+        <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/ai.png" alt="AI Content moderation System">
+                <div class="content">
+                    <div class="tag">
+                        <h3>AI Content Moderation System</h3>
+                    </div>
+                    <div class="desc">
+                        <p>AI-powered platform designed to detect and prevent harmful content in real-time using intelligent moderation techniques, ensuring a safe and secure digital environment for students.</p>
+                        <div class="btns">
+                            <a href="https://github.com/yadavvishal02" class="btn" target="_blank"><i
+                                    class="fas fa-eye"></i> View</a>
+                            <a href="https://github.com/yadavvishal02" class="btn" target="_blank">Code <i
+                                    class="fas fa-code"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/e-com.png" alt="E-commerce Website">
+                <div class="content">
+                    <div class="tag">
+                        <h3>E-Commerse Website</h3>
+                    </div>
+                    <div class="desc">
+                        <p>E-commerce website featuring a seamless shopping experience with responsive design, intuitive navigation, and smooth user interactions.</p>
+                        <div class="btns">
+                            <a href="https://houseofsniff.com" class="btn" target="_blank"><i
+                                    class="fas fa-eye"></i> View</a>
+                            <a href="https://github.com/yadavvishal02" class="btn" target="_blank">Code <i
+                                    class="fas fa-code"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="box">
+                <img src="images/portfo.png" alt="Portfolio website">
+                <div class="content">
+                    <div class="tag">
+                        <h3>Personal Portfolio Website</h3>
+                    </div>
+                    <div class="desc">
+                        <p>Personal portfolio website featuring responsive design and smooth, interactive animations.</p>
+                        <div class="btns">
+                            <a href="https://apnegaane.freewebhostmost.com/" class="btn" target="_blank"><i
+                                    class="fas fa-eye"></i> View</a>
+                            <a href="https://github.com/yadavvishal02" class="btn" target="_blank">Code <i
+                                    class="fas fa-code"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="viewall">
+            <a href="https://github.com/yadavvishal02" target="_blank" class="btn"><span>View All Projects</span>
+                <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+    </section>
+    <!-- projects section ends -->
+
+    <!-- experience section starts -->
+    <section class="experience hidden" id="experience">
+        <h2 class="heading"><i class="fas fa-briefcase"></i> Training & <span>Certificates</span></h2>
+        <div class="experience-container">
+            <div class="experience-card">
+                <div class="exp-icon"><i class="fas fa-code"></i></div>
+                <div class="exp-content">
+                    <div class="exp-header">
+                        <h3>DSA using Python</h3>
+                        <span class="exp-badge">CSE PATHSHALA / Training</span>
+                    </div>
+                    <span class="exp-date"><i class="fas fa-calendar-alt"></i>June 2025</span>
+                    <ul class="exp-points">
+                        <li>Completed 35+ hours of live summer training focused on Data Structures and Algorithms using Python.</li>
+                        <li>Practiced solving DSA problems using a structured, optimized approach with emphasis on efficiency.</li>
+                        <li>Worked on different DSA projects and algorithms</li>
+                    </ul>
+                    <div class="exp-tags">
+                        <span>Python</span><span>DSA</span>
+                    </div>
+                </div>
+            </div>
+            <div class="experience-card">
+                <div class="exp-icon"><i class="fas fa-laptop-code"></i></div>
+                <div class="exp-content">
+                    <div class="exp-header">
+                        <h3>Responsive Web Design</h3>
+                        <span class="exp-badge">Freecodecamp.org</span>
+                    </div>
+                    <span class="exp-date"><i class="fas fa-calendar-alt"></i>November 2023</span>
+                    <ul class="exp-points">
+                        <li>Learned modern responsive design using HTML5, CSS3 and grid to build mobile-friendly webpages.
+                        </li>
+                        <li>Learned to create adaptive layouts and optimize web pages for different screen sizes and devices.</li>
+                        <!-- <li>Working on integrating AI features into web applications.</li> -->
+                    </ul>
+                    <div class="exp-tags">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                    </div>
+                </div>
+            </div>
+            <div class="experience-card">
+                <div class="exp-icon"><i class="fab fa-android"></i></div>
+                <div class="exp-content">
+                    <div class="exp-header">
+                        <h3>Computer Programming</h3>
+                        <span class="exp-badge">Neo Colab</span>
+                    </div>
+                    <span class="exp-date"><i class="fas fa-calendar-alt"></i> 2022 – Present</span>
+                    <ul class="exp-points">
+                        <li>Built a strong foundation in programming logic, control structures, and problem-solving techniques.</li>
+                        <li>Developed a solid understanding of programming fundamentals, including logic building, control flow, and problem-solving.</li>
+                        <li>Learned structured coding and problem-solving techniques.</li>
+                    </ul>
+                    <div class="exp-tags">
+                        <span>C</span><span>C++</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- experience section ends -->
+
+    <!-- contact section starts -->
+    <section class="contact hidden" id="contact">
+        <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
+        <div class="container">
+            <div class="content">
+                <div class="image-box">
+                    <img draggable="false" src="images/undraw_deep-work_muov.svg" alt="Contact">
+                </div>
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="ab23f81c-4ac2-4e38-8a44-6e827a64314c">
+                    <div class="form-group">
+                        <div class="field">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                            <i class='fas fa-user'></i>
+                        </div>
+                        <div class="field">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <i class='fas fa-envelope'></i>
+                        </div>
+                        <div class="field">
+                            <input type="tel" name="number" placeholder="Phone Number">
+                            <i class='fas fa-phone-alt'></i>
+                        </div>
+                        <div class="message">
+                            <textarea placeholder="Your Message..." name="message" required></textarea>
+                            <i class="fas fa-comment-dots"></i>
+                        </div>
+                    </div>
+                    <div class="button-area">
+                        <button type="submit">
+                            Send Message <i class="fa fa-paper-plane"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- contact section ends -->
+
+    <!-- Footer section starts -->
+    <section class="footer hidden" id="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Vishal's Portfolio</h3>
+                <p>Thank you for visiting my personal portfolio website. Connect with me over socials.
+                    <br><br>
+                    Keep Rising 🚀. Let's build something amazing together!
+                </p>
+            </div>
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#home"><i class="fas fa-chevron-circle-right"></i> Home</a>
+                <a href="#about"><i class="fas fa-chevron-circle-right"></i> About</a>
+                <a href="#skills"><i class="fas fa-chevron-circle-right"></i> Skills</a>
+                <a href="#education"><i class="fas fa-chevron-circle-right"></i> Education</a>
+                <a href="#projects"><i class="fas fa-chevron-circle-right"></i> Projects</a>
+                <a href="#experience"><i class="fas fa-chevron-circle-right"></i> Experience</a>
+                <a href="#contact"><i class="fas fa-chevron-circle-right"></i> Contact</a>
+            </div>
+            <div class="box">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-phone"></i> +91 935-075-0820</p>
+                <p><i class="fas fa-envelope"></i> yadavvishal32880@gmail.com</p>
+                <p><i class="fas fa-map-marked-alt"></i> Haryana, India — 123028</p>
+                <div class="share">
+                    <a href="https://www.linkedin.com/in/vishal-yadav-934b66292/" class="fab fa-linkedin"
+                        target="_blank" aria-label="LinkedIn"></a>
+                    <a href="https://github.com/yadavvishal02" class="fab fa-github" target="_blank"
+                        aria-label="GitHub"></a>
+                    <a href="mailto:yadavvishal32880@gmail.com" class="fas fa-envelope" target="_blank"
+                        aria-label="Email"></a>
+                    <a href="https://x.com/VishalY85702954" class="fab fa-twitter" target="_blank"
+                        aria-label="Twitter"></a>
+                    <a href="https://www.instagram.com/yadav_vishal_02/" class="fab fa-instagram" target="_blank"
+                        aria-label="Instagram"></a>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <h1 class="credit">Created by <a href="https://www.linkedin.com/in/vishal-yadav-934b66292/"
+                target="_blank">&nbsp;Vishal Yadav</a> <span>|</span> &nbsp;Copyright &copy; 2026 All Rights Reserved
+        </h1>
+    </section>
+    <!-- footer section ends -->
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
